@@ -1,0 +1,340 @@
+<title>Roamly Groups GTM</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@75..125,500..800&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+  :root {
+    --ground: #F5F7F5;
+    --surface: #FFFFFF;
+    --surface-2: #EAEFEC;
+    --ink: #17252A;
+    --ink-2: #4A5A5E;
+    --ink-3: #7C8A8D;
+    --line: #D3DBD8;
+    --accent: #0E7C6B;
+    --accent-ink: #FFFFFF;
+    --accent-soft: #DCEFEA;
+    --warn: #B4631B;
+    --warn-soft: #F6E7D6;
+    --mute-soft: #E3E8E6;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --ground: #101718;
+      --surface: #182022;
+      --surface-2: #1F2A2D;
+      --ink: #E4EBE8;
+      --ink-2: #A8B5B2;
+      --ink-3: #7A8886;
+      --line: #2C393C;
+      --accent: #4FC3AE;
+      --accent-ink: #0F1A18;
+      --accent-soft: #163731;
+      --warn: #E1A05C;
+      --warn-soft: #3A2A16;
+      --mute-soft: #263133;
+    }
+  }
+  :root[data-theme="dark"] {
+    --ground: #101718;
+    --surface: #182022;
+    --surface-2: #1F2A2D;
+    --ink: #E4EBE8;
+    --ink-2: #A8B5B2;
+    --ink-3: #7A8886;
+    --line: #2C393C;
+    --accent: #4FC3AE;
+    --accent-ink: #0F1A18;
+    --accent-soft: #163731;
+    --warn: #E1A05C;
+    --warn-soft: #3A2A16;
+    --mute-soft: #263133;
+  }
+
+  * { box-sizing: border-box; }
+  body {
+    background: var(--ground);
+    color: var(--ink);
+    font-family: "Public Sans", "Helvetica Neue", Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+    padding-block: 32px 48px;
+    padding-inline: 20px;
+  }
+  .doc {
+    max-width: 1040px;
+    margin: 0 auto;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    padding: 36px 40px 40px;
+  }
+  h1, h2, h3, .display { font-family: "Archivo", "Arial Narrow", Arial, sans-serif; }
+  h1, h2, h3 { margin: 0; text-wrap: balance; }
+
+  /* Header */
+  .head {
+    display: flex; flex-wrap: wrap; gap: 16px 32px;
+    align-items: flex-end; justify-content: space-between;
+    padding-bottom: 20px; border-bottom: 2px solid var(--ink);
+  }
+  .eyebrow {
+    font-size: 11px; font-weight: 600; letter-spacing: 0.12em; text-transform: uppercase;
+    color: var(--accent); margin-bottom: 6px;
+  }
+  h1 {
+    font-size: 34px; font-weight: 800; line-height: 1.05;
+    font-variation-settings: "wdth" 92;
+    letter-spacing: -0.01em;
+  }
+  h1 span { color: var(--ink-3); font-weight: 600; }
+  .meta {
+    display: grid; grid-template-columns: auto auto; gap: 2px 14px;
+    font-size: 12px; color: var(--ink-2);
+  }
+  .meta dt { color: var(--ink-3); text-transform: uppercase; letter-spacing: 0.08em; font-size: 10.5px; font-weight: 600; }
+  .meta dd { margin: 0; font-weight: 500; }
+  .status {
+    display: inline-block; padding: 1px 8px; border-radius: 3px;
+    background: var(--warn-soft); color: var(--warn); font-weight: 600; font-size: 11px;
+  }
+
+  /* Bet */
+  .bet {
+    margin-top: 24px;
+    display: grid; grid-template-columns: 1.4fr 1fr; gap: 28px;
+  }
+  .positioning {
+    font-family: "Archivo", "Arial Narrow", Arial, sans-serif;
+    font-size: 21px; line-height: 1.32; font-weight: 500;
+    font-variation-settings: "wdth" 96;
+    padding-left: 16px; border-left: 4px solid var(--accent);
+    text-wrap: pretty;
+  }
+  .positioning strong { font-weight: 700; color: var(--accent); }
+  .goal {
+    background: var(--surface-2); padding: 16px 18px;
+    display: grid; gap: 10px; align-content: start;
+  }
+  .goal h2 { font-size: 12px; letter-spacing: 0.12em; text-transform: uppercase; color: var(--ink-2); font-weight: 700; }
+  .goal .big {
+    font-family: "Archivo", Arial, sans-serif; font-size: 26px; font-weight: 800; line-height: 1;
+    font-variation-settings: "wdth" 90;
+  }
+  .goal p { margin: 0; color: var(--ink-2); font-size: 13px; }
+  .goal .not { font-size: 12px; color: var(--ink-3); border-top: 1px solid var(--line); padding-top: 8px; }
+
+  /* Sections */
+  .grid {
+    margin-top: 28px;
+    display: grid; grid-template-columns: 1fr 1fr; gap: 28px 36px;
+  }
+  section h2 {
+    font-size: 15px; font-weight: 800; letter-spacing: 0.02em; text-transform: uppercase;
+    font-variation-settings: "wdth" 90;
+    padding-bottom: 8px; border-bottom: 1px solid var(--line); margin-bottom: 12px;
+  }
+  .span2 { grid-column: 1 / -1; }
+
+  /* Audience tiles */
+  .aud { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+  .tile { padding: 14px 16px; border: 1px solid var(--line); display: grid; gap: 6px; align-content: start; }
+  .tile h3 { font-size: 15px; font-weight: 700; }
+  .tile .role { font-size: 10.5px; letter-spacing: 0.1em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  .tile p { margin: 0; color: var(--ink-2); font-size: 13px; }
+
+  /* Messages */
+  .msgs { display: grid; gap: 0; }
+  .msg {
+    display: grid; grid-template-columns: 84px 1fr; gap: 14px; align-items: baseline;
+    padding: 11px 0; border-bottom: 1px solid var(--line);
+  }
+  .msg:last-child { border-bottom: 0; }
+  .tag {
+    font-size: 10.5px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase;
+    padding: 2px 7px; border-radius: 3px; display: inline-block; white-space: nowrap;
+  }
+  .tag-a { background: var(--accent-soft); color: var(--accent); }
+  .tag-m { background: var(--mute-soft); color: var(--ink-2); }
+  .tag-w { background: var(--warn-soft); color: var(--warn); }
+  .msg h3 { font-size: 17px; font-weight: 700; line-height: 1.2; font-variation-settings: "wdth" 95; }
+  .msg p { margin: 3px 0 0; color: var(--ink-2); font-size: 13px; }
+
+  /* Channels + metrics as label rows */
+  .rows { display: grid; }
+  .row {
+    display: grid; grid-template-columns: 96px 1fr; gap: 14px; align-items: start;
+    padding: 9px 0; border-bottom: 1px solid var(--line);
+  }
+  .row:last-child { border-bottom: 0; }
+  .row .k { font-size: 11px; font-weight: 700; letter-spacing: 0.08em; text-transform: uppercase; color: var(--ink-3); padding-top: 2px; }
+  .row .v { font-size: 13.5px; }
+  .row .v strong { font-weight: 600; }
+  .row .v small { display: block; color: var(--ink-2); font-size: 12.5px; margin-top: 2px; }
+  .row.off .k, .row.off .v { color: var(--ink-3); }
+  .row.off .v strong { font-weight: 500; text-decoration: line-through; text-decoration-color: var(--ink-3); }
+
+  /* Metric emphasis */
+  .lead .k { color: var(--accent); }
+  .lead .v strong { color: var(--accent); }
+
+  /* Requirements + open */
+  .list { margin: 0; padding: 0; list-style: none; display: grid; gap: 7px; }
+  .list li { display: grid; grid-template-columns: 14px 1fr; gap: 10px; font-size: 13.5px; }
+  .list li::before { content: ""; width: 8px; height: 8px; margin-top: 7px; background: var(--accent); }
+  .list.open li::before { background: transparent; border: 2px solid var(--warn); width: 8px; height: 8px; }
+  .list li strong { font-weight: 600; }
+  .list li span { color: var(--ink-2); }
+  .list li div { min-width: 0; }
+
+  .foot {
+    margin-top: 28px; padding-top: 12px; border-top: 1px solid var(--line);
+    font-size: 11.5px; color: var(--ink-3); display: flex; flex-wrap: wrap; gap: 6px 24px; justify-content: space-between;
+  }
+
+  @media (max-width: 720px) {
+    .doc { padding: 24px 18px 28px; }
+    h1 { font-size: 28px; }
+    .bet, .grid, .aud { grid-template-columns: 1fr; }
+    .positioning { font-size: 19px; }
+    .msg, .row { grid-template-columns: 1fr; gap: 4px; }
+  }
+</style>
+
+<div class="doc">
+  <header class="head">
+    <div>
+      <div class="eyebrow">Go-to-market strategy</div>
+      <h1>Roamly Groups <span>V1 GTM</span></h1>
+    </div>
+    <dl class="meta">
+      <dt>Owner</dt><dd>Senior PM, Roamly Groups</dd>
+      <dt>Date</dt><dd>12 Sep 2026</dd>
+      <dt>Status</dt><dd><span class="status">Draft for team review</span></dd>
+      <dt>Motion</dt><dd>PLG, seeded</dd>
+    </dl>
+  </header>
+
+  <div class="bet">
+    <p class="positioning">For people who organize trips for their friends and end up fronting the money and chasing everyone to pay them back, Roamly Groups is a group checkout that <strong>holds the slot while every friend pays their own share.</strong> Unlike a group chat plus a payment app, the booking confirms for everyone at once and nobody is out of pocket.</p>
+    <div class="goal">
+      <h2>The goal</h2>
+      <div class="big display">Expand</div>
+      <p>Recover the group bookings that today start and die. Launch to existing organizers; win completed group bookings with several seats each.</p>
+      <p class="not">Not launching against: new-user signups (tracked as by-product), company or team bookings, paid acquisition.</p>
+    </div>
+  </div>
+
+  <div class="grid">
+    <section class="span2">
+      <h2>Who we reach, who we convert</h2>
+      <div class="aud">
+        <div class="tile">
+          <div class="role">We reach</div>
+          <h3>The organizer</h3>
+          <p>Existing Roamly user, 2+ bookings in 12 months, with a group signal: same-slot sessions, split-pay tickets, "book for my friends" feedback. In the cities where failed group sessions cluster.</p>
+          <p><strong>Pain:</strong> unpaid coordination work and carrying the group's money.</p>
+        </div>
+        <div class="tile">
+          <div class="role">We convert</div>
+          <h3>The friends</h3>
+          <p>The 2 to 7 people the organizer invites. Mostly not on Roamly. Each one must complete before the booking exists, so their path decides completion rate.</p>
+          <p><strong>Pain today:</strong> none. Venmo works fine for them. We have to beat Venmo on speed.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="span2">
+      <h2>Key messages</h2>
+      <div class="msgs">
+        <div class="msg">
+          <span class="tag tag-a">Organizer</span>
+          <div>
+            <h3>Never front the money again.</h3>
+            <p>Pick the experience, invite the group, and each friend pays their own seat. No spreadsheet, no reminders, no IOUs.</p>
+          </div>
+        </div>
+        <div class="msg">
+          <span class="tag tag-m">Friend</span>
+          <div>
+            <h3>One tap and your seat is yours.</h3>
+            <p>Pay your share from the link. No app to install, no account to create before you pay, nobody chasing you.</p>
+          </div>
+        </div>
+        <div class="msg">
+          <span class="tag tag-w">Both</span>
+          <div>
+            <h3>Confirmed together or charged never.</h3>
+            <p>Roamly holds the slot while the group pays. If the group does not complete, nobody is charged and nobody is stuck.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Channels</h2>
+      <div class="rows">
+        <div class="row">
+          <div class="k">Primary</div>
+          <div class="v"><strong>In product.</strong><small>"Booking for a group?" at checkout for segment organizers in launch cities. Post-booking prompt on the same-slot pattern. Direct email to the split-pay ticket cohort.</small></div>
+        </div>
+        <div class="row">
+          <div class="k">The loop</div>
+          <div class="v"><strong>Invite link.</strong><small>SMS or shared link, guest pay on one screen, account offered after payment. This step decides completion rate and gets the design and test budget.</small></div>
+        </div>
+        <div class="row">
+          <div class="k">Seeding</div>
+          <div class="v"><strong>Where organizers already talk.</strong><small>Trip-planning creators and travel communities in launch cities. "Booked as a group of 6" on share and review surfaces.</small></div>
+        </div>
+        <div class="row off">
+          <div class="k">Not now</div>
+          <div class="v"><strong>Paid acquisition, team and company bookings, itinerary as headline.</strong></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Success metrics</h2>
+      <div class="rows">
+        <div class="row lead">
+          <div class="k">Leading</div>
+          <div class="v"><strong>Group completion rate.</strong><small>Started group bookings that reach fully paid confirmation. Baseline: current drop-off on same-slot sessions; target is a lift over it once measured. Provisional bar: at least 80% of the individual booking completion rate, because a group has one more failure point, the last friend.</small></div>
+        </div>
+        <div class="row">
+          <div class="k">Success</div>
+          <div class="v"><strong>Seats per booking</strong> among segment organizers.<small>Target: at least 4 seats per group booking on average, read against a holdout of organizers who never see the entry point. Groups of 3 to 8 have a midpoint of 5.5; 4 leaves room for the last friend dropping out.</small></div>
+        </div>
+        <div class="row">
+          <div class="k">By-product</div>
+          <div class="v"><strong>Invited-friend signups</strong> and their 90-day second booking.<small>Measured, not targeted.</small></div>
+        </div>
+        <div class="row">
+          <div class="k">Guardrails</div>
+          <div class="v"><strong>Held slots released unpaid</strong> and <strong>invite-to-confirmation time.</strong><small>Released slots stay below the cost the supply side agreed to. Invite-to-confirmation stays in hours, not days.</small></div>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Launch requirements</h2>
+      <ul class="list">
+        <li><div><strong>Slot hold</strong> <span>for the payment window. Without it the organizer fronts money or loses the slot, and the value prop is false.</span></div></li>
+        <li><div><strong>Guest pay</strong> <span>for friends, one screen, account creation after payment.</span></div></li>
+        <li><div><strong>Split pay leads the message.</strong> <span>Itinerary planning ships in the product, not in the headline.</span></div></li>
+        <li><div><strong>City gate</strong> <span>on the entry point so the launch reads clean in the launch cities before it goes wide.</span></div></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Open before launch</h2>
+      <ul class="list open">
+        <li><div><strong>Hold window.</strong> <span>How long, and who eats the cost when a held slot is released unpaid.</span></div></li>
+        <li><div><strong>Friend screen.</strong> <span>What one-screen guest pay looks like. Test it with 20 organizers in one launch city; if per-friend completion is below 90%, redesign before going wide (at 80% per friend a group of seven completes about 21% of the time; at 95%, about 70%).</span></div></li>
+        <li><div><strong>The numbers.</strong> <span>Current drop-off rate and organizer count in the launch cities, so target and ceiling are written down.</span></div></li>
+      </ul>
+    </section>
+  </div>
+
+  <div class="foot">
+    <span>Roamly Groups: group booking, split pay, shared itinerary. Internal, first draft.</span>
+    <span>Next revision: after the drop-off baseline and organizer count are in.</span>
+  </div>
+</div>
