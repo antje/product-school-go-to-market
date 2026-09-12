@@ -63,7 +63,7 @@ Travelers pay no booking fee on top of the listed price; price parity means Viat
 
 **Why you win**
 
-The booking confirms for everyone at once and nobody is out of pocket. Viator cannot say it, and the last marketplace that tried (Airbnb, 2017 to 2018) pulled the feature after ten months because it hurt suppliers. We win when the organizer has been burned before: Airbnb's own research found 38% of group travelers had not been paid back what they were owed. The advantage is defensible because group checkout is an inventory feature, not a payments feature: it only works if the marketplace controls the hold, the expert has opted in, and the window is short and predictable. Viator would have to renegotiate hold rules with hundreds of thousands of independent operators; we can put 40 cities of vetted experts on one policy. A supply moat, not a code moat. Curation matches the buyer: a friend group with one weekend wants three good options, not 300. And every friend who pays becomes a Roamly account; Viator sees one traveler per booking, we see all eight.
+The booking confirms for everyone at once and nobody is out of pocket. Viator cannot say it, and the last marketplace that tried (Airbnb, 2017 to 2018) pulled the feature after ten months because it hurt suppliers. We win when the organizer has been burned before: Airbnb's own research found 38% of group travelers had not been paid back what they were owed. The advantage is defensible because group checkout is an inventory feature, not a payments feature: it only works if the marketplace controls the hold, the expert has opted in, and the window is short and predictable. Viator would have to renegotiate hold rules with hundreds of thousands of independent operators; we can put 40 cities of vetted experts on one policy. A supply moat, not a code moat. Curation matches the buyer: a friend group with one weekend wants three good options, not 300. And every friend who pays is offered a Roamly account after paying; Viator sees one traveler per booking, we see all eight.
 
 **Why they win**
 
@@ -76,7 +76,7 @@ The booking confirms for everyone at once and nobody is out of pocket. Viator ca
 
 **Why you?**
 
-Viator lets you hold the seats; Roamly lets everyone pay for their own seat, so you are never the bank. Three proof points: per-person checkout on a held slot, confirmed when the last friend pays; vetted experts in every city we serve, so the group chooses among good options instead of screening bad ones; nobody chases anybody, because the hold has a deadline, reminders come from Roamly, and if the group does not fill everyone who paid is refunded automatically. Over doing nothing: the group that "figures it out when we get there" usually never books, and the reason is that one person did not want to be the bank.
+Viator lets you hold the seats; Roamly lets everyone pay for their own seat, so you are never the bank. Three proof points: per-person checkout on a held slot, confirmed when the last friend pays; vetted experts in every city we serve, so the group chooses among good options instead of screening bad ones; nobody chases anybody, because the hold has a deadline, reminders come from Roamly, and if the group does not fill nobody is charged. Over doing nothing: the group that "figures it out when we get there" usually never books, and the reason is that one person did not want to be the bank.
 
 ### 4 · Handle the Hard Moments
 
@@ -101,7 +101,7 @@ Viator lets you hold the seats; Roamly lets everyone pay for their own seat, so 
 
 "My friends won't sign up for another app just to pay." This one is real. Answer with the flow: taps from link to paid, guest checkout, Apple Pay and Google Pay. Cash App Pools already accepts non-user contributions, so that is the bar.
 
-"What if not everyone pays in time? Do I lose the slot?" Yes, the hold has a deadline and the slot is released if the group does not fill; everyone who paid is refunded automatically. That is the price of the expert agreeing to hold seats at all, and the deadline is what finally makes the group chat decide.
+"What if not everyone pays in time? Do I lose the slot?" Yes, the hold has a deadline and the slot is released if the group does not fill; nobody is charged, because payments are captured only when the last seat is paid. That is the price of the expert agreeing to hold seats at all, and the deadline is what finally makes the group chat decide.
 
 "What's your cancellation policy?" Answer with the actual policy once set. If stricter than 24 hours, say why: held seats for a group cost the expert more than one seat. And point to Viator's fine print, where strict listings need seven days.
 

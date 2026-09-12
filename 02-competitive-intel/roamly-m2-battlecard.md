@@ -11,7 +11,7 @@ Open items: Roamly commission rate, Roamly group cancellation window.
 - Largest experiences marketplace in the category. Owned by Tripadvisor. 300,000+ tours and activities.
 - Default answer to "things to do in [city]". Much of its demand comes from Tripadvisor search.
 - Operators self-onboard, set their own net rate, availability and cut-off times. Viator aggregates; it does not curate.
-- Roamly is in 40 cities with vetted local experts. Viator is nearly everywhere. In the 40 overlap cities, Viator likely lists many of your experts or their direct competitors.
+- Roamly is in 40 cities with vetted local experts. Viator is nearly everywhere. In the 40 overlap cities, Viator likely lists many of our experts or their direct competitors.
 
 ### Key Offerings
 
@@ -23,18 +23,18 @@ Open items: Roamly commission rate, Roamly group cancellation window.
 
 ### Pricing
 
-- Traveler: no booking fee on top of the listed price (checked August 2026). Price parity is the norm, so Viator's price usually matches the operator's direct price.
+- Traveler: no booking fee on top of the listed price. Price parity is the norm, so Viator's price usually matches the operator's direct price.
 - Operator: 20% base commission. The Accelerate program lets operators bid commission to 30 to 35% for visibility, and most pay above base.
-- Roamly: commission rate is an OPEN ITEM. If it is at or below Viator's base, say so to experts, not to travelers.
+- Roamly: our commission rate is an OPEN ITEM. If it is at or below Viator's base, say so to experts, not to travelers.
 
 ## Understand the Battlefield
 
 ### Key Strengths
 
-1. Selection and discovery. A group that has not chosen an activity starts on Viator or Tripadvisor. You are a destination; they are a search engine.
-2. Reserve Now & Pay Later solves half the organizer's problem. Eight seats held, zero money down, zero personal risk until 48 hours out. This is the strongest counter to your pitch.
+1. Selection and discovery. A group that has not chosen an activity starts on Viator or Tripadvisor. We are a destination; they are a search engine.
+2. Reserve Now & Pay Later solves half the organizer's problem. Eight seats held, zero money down, zero personal risk until 48 hours out. This is the strongest counter to our pitch.
 3. Trust at scale. Tripadvisor reviews, global brand, 24-hour refund on most listings, a support operation a 40-city company cannot match.
-4. Supplier lock-in. Operators depend on Viator demand and many pay Accelerate for it. Your experts may hesitate to list a group product they cannot offer on Viator.
+4. Supplier lock-in. Operators depend on Viator demand and many pay Accelerate for it. Our experts may hesitate to list a group product they cannot offer on Viator.
 
 ### Key Weaknesses
 
@@ -42,25 +42,25 @@ Open items: Roamly commission rate, Roamly group cancellation window.
 2. No group object. Nobody but the organizer sees the booking, the countdown, or who has committed. The friends are invisible to Viator.
 3. No curation. Filtering 300,000 listings is the traveler's job. "Vetted local expert" is not a Viator claim and cannot be, given how operators onboard.
 4. Cancellation fine print. The 24-hour promise does not hold for "strict" listings. Groups burned once remember it.
-5. Operator margin pressure. 20% base plus Accelerate leaves experts looking for a better channel. That is your supply-side wedge.
+5. Operator margin pressure. 20% base plus Accelerate leaves experts looking for a better channel. That is our supply-side wedge.
 
 ## Win the Deal
 
 ### Why You Win
 
 - The booking confirms for everyone at once and nobody is out of pocket. Viator cannot say it. The last marketplace that tried (Airbnb, 2017 to 2018) pulled the feature after ten months because it hurt suppliers. Airbnb's own research: 38% of group travelers had not been paid back what they were owed.
-- Defensible because it is an inventory feature, not a payments feature. It works only if the marketplace controls the hold, the expert has opted in, and the hold window is short and predictable. Viator would have to renegotiate hold rules with hundreds of thousands of independent operators. You can put 40 cities of vetted experts on one policy. The moat is supply, not code.
+- Defensible because it is an inventory feature, not a payments feature. It works only if the marketplace controls the hold, the expert has opted in, and the hold window is short and predictable. Viator would have to renegotiate hold rules with hundreds of thousands of independent operators. We can put 40 cities of vetted experts on one policy. The moat is supply, not code.
 - Curation matches the buyer. A friend group with one weekend wants three good options, not 300. "Vetted" plus "everyone pays their own share" is a combined message Viator cannot copy without changing how it onboards supply.
-- Every friend who pays becomes a Roamly account. Viator sees one traveler per booking; you see all eight. That compounds only on your side.
+- Every friend who pays is offered a Roamly account after paying. Viator sees one traveler per booking; we see all eight. That compounds only on our side.
 
 ### Why They Win
 
-- The group has not picked an activity yet. Discovery beats checkout, and you are not where discovery happens.
-- The city is not one of your 40.
+- The group has not picked an activity yet. Discovery beats checkout, and we are not where discovery happens.
+- The city is not one of our 40.
 - The group trusts each other and the organizer has a healthy card. Reserve Now & Pay Later plus a Venmo request is good enough, and it is a habit.
-- The experience is cheap. Nobody needs per-person checkout for a low-cost activity. Your mechanic earns its keep when fronting the group total feels like a loan.
-- Price. Same experience, same price, more reviews on Viator: you lose the head-to-head.
-- Refunds. If your hold-and-confirm rule means a stricter window than Viator's 24 hours, an informed buyer notices. (Roamly group cancellation window: OPEN ITEM.)
+- The experience is cheap. Nobody needs per-person checkout for a low-cost activity. Our mechanic earns its keep when fronting the group total feels like a loan.
+- Price. Same experience, same price, more reviews on Viator: we lose the head-to-head.
+- Cancellation. If our hold-and-confirm rule means a stricter window than Viator's 24 hours, an informed buyer notices. (Roamly group cancellation window: OPEN ITEM.)
 
 ### Why You
 
@@ -68,7 +68,7 @@ One line: "Viator lets you hold the seats. Roamly lets everyone pay for their ow
 
 1. Per-person checkout with a held slot. Each friend pays their share; the booking confirms when the last one pays.
 2. Vetted experts in every city we serve. The group chooses among good options instead of screening bad ones.
-3. Nobody chases anybody. The hold has a deadline, reminders come from Roamly, and if the group does not fill, everyone who paid is refunded automatically.
+3. Nobody chases anybody. The hold has a deadline, reminders come from Roamly, and if the group does not fill, nobody is charged: each friend's payment is authorized at checkout and captured only when the last seat is paid.
 
 ## Handle the Hard Moments
 
@@ -76,7 +76,7 @@ One line: "Viator lets you hold the seats. Roamly lets everyone pay for their ow
 
 "Viator is a great place to find a tour if you are paying for yourself. Roamly Groups is built for the one person in the chat who always ends up paying for everyone. On Viator that person still puts the whole thing on their card two days before and spends the trip collecting. On Roamly, every friend pays their own share, the slot is held, and it confirms for everyone at once."
 
-Do not attack Viator's inventory or brand. You will lose that argument and it makes you sound small.
+Do not attack Viator's inventory or brand. We lose that argument and it makes us sound small.
 
 ### Landmine Questions
 
@@ -85,7 +85,7 @@ Do not attack Viator's inventory or brand. You will lose that argument and it ma
 3. "Does anyone besides the organizer see the booking or the countdown?" (No.)
 4. "Is free cancellation actually 24 hours on this listing, or is it one of the strict ones?" (Depends; many are seven days.)
 5. "How did this operator get onto the platform, and who checked them?" (Self-serve onboarding; no vetting claim.)
-6. For experts: "What commission are you paying Viator once Accelerate is included?" (Often 25 to 35%.)
+6. For experts: "What commission are you paying Viator once Accelerate is included?" (20% base; 30 to 35% is what operators report under Accelerate.)
 
 ### Objection Handling
 
@@ -99,13 +99,13 @@ Agree. If you are still deciding, browse Viator. When you have picked something 
 Real objection. Answer with facts about the flow: taps from shared link to paid, whether guest checkout exists, whether Apple Pay and Google Pay are supported. If friends need a full account, fix that before fighting Viator on it. Cash App Pools already accepts non-user contributions via Apple Pay and Google Pay, so the bar is set.
 
 "What if not everyone pays in time? Do I lose the slot?"
-Yes. The hold has a deadline and the slot is released if the group does not fill. Everyone who paid is refunded automatically. That is the price of an expert agreeing to hold seats at all; Airbnb's version failed because hosts had a 72-hour hold imposed on them with no opt-in. Sell the deadline as the thing that finally makes the group chat decide.
+Yes. The hold has a deadline and the slot is released if the group does not fill. Nobody is charged: payments are authorized at checkout and captured only when the last seat is paid. That is the price of an expert agreeing to hold seats at all; Airbnb's version failed because hosts had a 72-hour hold imposed on them with no opt-in. Sell the deadline as the thing that finally makes the group chat decide.
 
 "Viator has 24-hour free cancellation. What's yours?"
 Answer with the actual policy (OPEN ITEM). If stricter, say so and explain: held seats for a group cost the expert more than a single seat. If equal or better, say so and point to Viator's fine print, where strict listings need seven days.
 
 "Same tour is on Viator at the same price with 400 reviews."
-Do not discount. Reframe on the group outcome: same price, but on Viator one of you fronts the full amount and collects for a week. If the buyer is solo, let this one go. Not your segment.
+Do not discount. Reframe on the group outcome: same price, but on Viator one of you fronts the full amount and collects for a week. If the buyer is solo, let this one go. Not our segment.
 
 "I've never heard of Roamly."
 Fair. Lead with the expert: this host, this vetting, this review count, and eight of you each paying your own way. Trust transfers from the expert to the platform faster than the other way around at 40 cities.
