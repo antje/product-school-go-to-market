@@ -1,8 +1,12 @@
-# Roamly Groups — Go-To-Market Strategy
+# Roamly Groups: Go-To-Market Strategy
 
-> My final project for Product School's **Go-To-Market** certification. A complete go-to-market strategy for **Roamly Groups** — a new group-booking feature — built across six in-class labs, no homework required.
+> My final project for Product School's **Go-To-Market** certification. A complete go-to-market strategy for **Roamly Groups**, a new group-booking feature with split payments and shared itineraries, built across six in-class labs.
+>
+> Antje Barth · Go-To-Market Certification · Sep 2026 weekend cohort (Sep 12, 19, 26)
 
-This is a **template repo**. Click **Use this template → Create a new repository**, name it `roamly-gtm-strategy`, and fill in one folder per module as you go.
+Repo: https://github.com/antje/product-school-go-to-market
+
+Roamly and Roamly Groups are a fictional teaching scenario from the course. Nothing in this repo is a fact about a real company.
 
 ---
 
@@ -10,7 +14,7 @@ This is a **template repo**. Click **Use this template → Create a new reposito
 
 | # | Deliverable | Module | Status | File |
 |---|---|---|---|---|
-| 1 | **GTM Strategy** (Discover Framework + motion + V1 one-pager) | M1 | ☐ | `01-gtm-strategy/gtm-strategy.md` |
+| 1 | **GTM Strategy** (Discover Framework + motion + V1 one-pager) | M1 | ☑ | `01-gtm-strategy/gtm-strategy.md` |
 | 2 | **Competitive Intelligence & Strategic Bet** (battlecard) | M2 | ☐ | `02-competitive-intel/battlecard-and-bet.md` |
 | 3 | **Positioning Statement** (framework + statement) | M3 | ☐ | `03-positioning/positioning.md` |
 | 4 | **Messaging & AI-Generated Asset** | M4 | ☐ | `04-messaging/messaging-and-asset.md` |
@@ -20,32 +24,34 @@ This is a **template repo**. Click **Use this template → Create a new reposito
 
 ## The strategy in one sentence
 
-_What is Roamly Groups, who is it for, and what's the single GTM bet you're making?_
-
-___
+Roamly Groups is a group checkout for the person who organizes trips for their friends, and the bet is that letting every friend pay their own share while Roamly holds the slot turns the group bookings that today start and die into completed bookings with several seats each, sold product-led to organizers who are already Roamly users.
 
 ## How to submit
 
-- Turn the six deliverable files into your deck. The quickest path: paste them into the **Presentation Prompt Builder** and have an AI tool generate a single, self-contained `final-presentation.html` (see `06-launch/final-presentation.md`). You can also use the Final Project Deliverables template or a tool like Gamma.
-- Submit your own copy to the LMS within 7 days of your cohort ending.
+- Turn the six deliverable files into the deck with the **Presentation Prompt Builder**, generating a single self-contained `final-presentation.html` (see `06-launch/final-presentation.md`).
+- Submit the repo URL and the presentation on the Learning Platform within 7 days of the cohort ending.
 
 ## Repo structure
 
 ```
-roamly-gtm-strategy/
-├── README.md                          ← this dashboard
+product-school-go-to-market/
+├── README.md                              ← this dashboard
 ├── 01-gtm-strategy/
-│   └── gtm-strategy.md                ← M1: Discover Framework + motion    ★ Deliverable 1
+│   ├── gtm-strategy.md                    ← M1: Discover Framework + motion + one-pager   ★ Deliverable 1
+│   ├── roamly-m1-gtm-infographic.html     ← M1: motion infographic (HTML one-pager)
+│   ├── roamly-m1-gtm-strategy-ex1.md      ← M1: Exercise 1, Discover Framework responses
+│   ├── roamly-m1-gtm-strategy-ex2.md      ← M1: Exercise 2, motion, pressure test, refinement
+│   └── roamly-m1-gtm-strategy-builder.md  ← M1: GTM Strategy Builder export
 ├── 02-competitive-intel/
-│   └── battlecard-and-bet.md          ← M2: competitive battlecard + bet   ★ Deliverable 2
+│   └── battlecard-and-bet.md              ← M2: competitive battlecard + bet              ★ Deliverable 2
 ├── 03-positioning/
-│   └── positioning.md                 ← M3: positioning framework + stmt    ★ Deliverable 3
+│   └── positioning.md                     ← M3: positioning framework + statement         ★ Deliverable 3
 ├── 04-messaging/
-│   └── messaging-and-asset.md         ← M4: messaging + AI-generated asset  ★ Deliverable 4
+│   └── messaging-and-asset.md             ← M4: messaging + AI-generated asset            ★ Deliverable 4
 ├── 05-pricing/
-│   └── pricing-recommendation.md      ← M5: pricing model + recommendation  ★ Deliverable 5
+│   └── pricing-recommendation.md          ← M5: pricing model + recommendation            ★ Deliverable 5
 └── 06-launch/
-    ├── individual-insights.md         ← M6: launch plan + your insights     ★ Deliverable 6
-    ├── final-presentation.md          ← M6: prompt + how to build the deck  ★ Final submission
-    └── final-presentation.html        ← M6: your generated final deck       (you create this)
+    ├── individual-insights.md             ← M6: launch plan + insights                    ★ Deliverable 6
+    ├── final-presentation.md              ← M6: prompt + how to build the deck            ★ Final submission
+    └── final-presentation.html            ← M6: generated final deck
 ```
