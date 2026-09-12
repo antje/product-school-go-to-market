@@ -32,11 +32,13 @@ Primary competitor: Viator. Full four-section battlecard in [roamly-m2-battlecar
 **Understand the battlefield.** Their strengths: discovery, since a group that has not chosen starts on Viator. Reserve Now & Pay Later, which solves half the organizer's problem and is the strongest counter to our pitch. Trust at scale. Supplier lock-in through Accelerate. Their weaknesses: one card, no group object, no curation, cancellation fine print, and operator margin pressure that leaves experts looking for a better channel.
 
 **Win the deal.** We win when:
+
 - the organizer has been burned before;
 - the group has already chosen the experience;
 - the experience costs enough that fronting the total feels like a loan.
 
 They win when:
+
 - the group has not picked an activity yet;
 - the city is not one of our 40;
 - the organizer has a healthy card and trusting friends, so Pay Later plus Venmo is good enough;

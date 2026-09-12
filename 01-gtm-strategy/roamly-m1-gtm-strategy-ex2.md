@@ -11,6 +11,7 @@ AI runs on 2026-09-12 with Claude, in one conversation, started from a fresh con
 PLG primary, CLG secondary.
 
 Run through the five inputs for Roamly Groups:
+
 - Time to value: minutes. The organizer creates a group, shares a link, friends pick and pay. Value lands in the first session.
 - Buyer and user: same person. The organizer books and attends. The friends who pay their share are also users.
 - Annual contract value: low. One booking is tens to a few hundred dollars per seat. No procurement, no contract.
