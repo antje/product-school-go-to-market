@@ -86,4 +86,5 @@ Same segment as Module 1, doubled down. What changed: the expert-side hold polic
 
 - [Viator battlecard, full four sections with sources](roamly-m2-battlecard.md)
 - [Exercise 1: research, competitor choice, battlecard prompts and verbatim responses](roamly-m2-competitive-ex1.md)
+- [Exercise 2: Data, Insight, Belief, Bet responses](roamly-m2-competitive-ex2.md)
 - [Battlecard Builder export, battlecard and DIBB bet](roamly-m2-battlecard-builder.md)

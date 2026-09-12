@@ -47,6 +47,7 @@ product-school-go-to-market/
 │   ├── battlecard-and-bet.md              ← M2: competitive set, battlecard, strategic bet ★ Deliverable 2
 │   ├── roamly-m2-battlecard.md            ← M2: full Viator battlecard with sources
 │   ├── roamly-m2-competitive-ex1.md       ← M2: Exercise 1, research and battlecard prompts, verbatim
+│   ├── roamly-m2-competitive-ex2.md       ← M2: Exercise 2, Data, Insight, Belief, Bet
 │   └── roamly-m2-battlecard-builder.md    ← M2: Battlecard Builder export
 ├── 03-positioning/
 │   └── positioning.md                     ← M3: positioning framework + statement         ★ Deliverable 3
