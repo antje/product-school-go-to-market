@@ -72,6 +72,8 @@ Community is a channel here, not a motion. Roamly already grows through travel c
 
 **Open before launch:** the hold window length and who bears the cost when a held slot releases unpaid; what the one-screen friend flow looks like and the completion rate it has to beat; the current drop-off rate and the organizer count in the launch cities, so the target and the ceiling are written down rather than asserted.
 
+*Refined in Module 2:* competitive research showed Airbnb shipped this hold in 2017 and retired it in 2018 because hosts never opted in. The hold policy with expert opt-in moved from an open question to the strategic bet itself; see `02-competitive-intel/battlecard-and-bet.md`.
+
 ## 5. Success metrics
 
 | Metric | Target | Why it matters |
