@@ -8,6 +8,10 @@ Repo: https://github.com/antje/product-school-go-to-market
 
 Roamly and Roamly Groups are a fictional teaching scenario from the course. Nothing in this repo is a fact about a real company.
 
+<img src="04-messaging/assets/roamly-m4-asset.png" alt="Roamly Groups social asset: Never be the bank for the group trip again" width="520">
+
+*The Module 4 messaging asset, built from the organizer pillar and cold-read four times.*
+
 ---
 
 ## Deliverables at a glance
