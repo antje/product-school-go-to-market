@@ -16,7 +16,7 @@ Roamly and Roamly Groups are a fictional teaching scenario from the course. Noth
 |---|---|---|---|---|
 | 1 | **GTM Strategy** (Discover Framework + motion + V1 one-pager) | M1 | ☑ | `01-gtm-strategy/gtm-strategy.md` |
 | 2 | **Competitive Intelligence & Strategic Bet** (battlecard) | M2 | ☑ | `02-competitive-intel/battlecard-and-bet.md` |
-| 3 | **Positioning Statement** (framework + statement) | M3 | ☐ | `03-positioning/positioning.md` |
+| 3 | **Positioning Statement** (framework + statement) | M3 | ☑ | `03-positioning/positioning.md` |
 | 4 | **Messaging & AI-Generated Asset** | M4 | ☐ | `04-messaging/messaging-and-asset.md` |
 | 5 | **Pricing Recommendation** | M5 | ☐ | `05-pricing/pricing-recommendation.md` |
 | 6 | **Individual Insights** (launch + reflection) | M6 | ☐ | `06-launch/individual-insights.md` |
@@ -50,7 +50,9 @@ product-school-go-to-market/
 │   ├── roamly-m2-competitive-ex2.md       ← M2: Exercise 2, Data, Insight, Belief, Bet
 │   └── roamly-m2-battlecard-builder.md    ← M2: Battlecard Builder export
 ├── 03-positioning/
-│   └── positioning.md                     ← M3: positioning framework + statement         ★ Deliverable 3
+│   ├── positioning.md                     ← M3: framework, core truth, statement, tests   ★ Deliverable 3
+│   ├── roamly-m3-positioning-builder.md   ← M3: Positioning Builder export
+│   └── roamly-m3-positioning-ex2.md       ← M3: Exercise 2, statement, pressure test, blind read, verbatim
 ├── 04-messaging/
 │   └── messaging-and-asset.md             ← M4: messaging + AI-generated asset            ★ Deliverable 4
 ├── 05-pricing/

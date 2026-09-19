@@ -6,7 +6,7 @@
 
 ## 1. The competitive set
 
-Roamly Groups competes on two axes at once: where the group finds the experience, and how the group pays for it. No competitor does both for a friend group of 3 to 8. Tiers follow the class model. Primary is who the buyer weighs against us today. Secondary solves part of the job.
+Roamly Groups competes on two axes: where the group finds the experience, and how the group pays for it. No competitor does both for a friend group of 3 to 8. Tiers follow the class model: primary is who the buyer weighs against us today, secondary solves part of the job.
 
 | Competitor | What they do well | Where they're weak | How we win |
 |---|---|---|---|
@@ -22,14 +22,14 @@ GetYourGuide is Viator's European twin and behaves the same way in this matchup.
 Primary competitor: Viator. Full four-section battlecard in [roamly-m2-battlecard.md](roamly-m2-battlecard.md).
 
 - **Our one-line advantage:** Viator lets you hold the seats. Roamly lets everyone pay for their own seat, so you are never the bank.
-- **Trap to set / question to plant:** "When your card gets charged for eight people two days before, what happens if two of them bail?" On Viator the organizer eats it or cancels the whole booking. Two follow-ups with the same answer, no: "Can each person pay for their own spot at checkout?" and "Does anyone besides you see the booking or the countdown?"
+- **Trap to set / question to plant:** "When your card gets charged for eight people two days before, what happens if two of them bail?" On Viator the organizer eats it or cancels the whole booking. Two follow-ups, both answered no: "Can each person pay for their own spot at checkout?" and "Does anyone besides you see the booking or the countdown?"
 - **Objection → response:**
   - *"Viator already has Reserve Now & Pay Later, so I don't pay upfront there either."* → True, and it is a good feature. But the auto-pay still lands on one card. Who is that card? If it is you, you are still the bank, just one that pays later. Roamly charges each friend for their own seat and never charges you for anyone else.
-  - *"My friends won't sign up for another app just to pay."* → This one is real. Cash App Pools has set the bar: pay from a link, no account. Our friend-side flow is one screen with guest checkout, Apple Pay and Google Pay. Account creation comes after payment. We win this objection with the flow, not with words.
+  - *"My friends won't sign up for another app just to pay."* → This objection is fair. Cash App Pools has set the bar: pay from a link, no account. Our friend-side flow is one screen with guest checkout, Apple Pay and Google Pay, and account creation comes after payment. The flow answers this objection; words do not.
 
 **Know the landscape.** Viator is owned by Tripadvisor. It aggregates and does not curate; operators self-onboard and set their own rates and cut-off times. Travelers pay no booking fee, and price parity means the listed price usually matches the operator's direct price. Cancellation is 24 hours on standard listings and seven days on strict ones. Roamly's own commission rate and group cancellation window are open items.
 
-**Understand the battlefield.** Their strengths: discovery, since a group that has not chosen starts on Viator. Reserve Now & Pay Later, which solves half the organizer's problem and is the strongest counter to our pitch. Trust at scale. Supplier lock-in through Accelerate. Their weaknesses: one card, no group object, no curation, cancellation fine print, and operator margin pressure that leaves experts looking for a better channel.
+**Understand the battlefield.** Their strengths: discovery, since a group that has not chosen starts on Viator; Reserve Now & Pay Later, which solves half the organizer's problem and is the strongest counter to our pitch; trust at scale; and supplier lock-in through Accelerate. Their weaknesses: one card, no group object, no curation, cancellation fine print, and operator margin pressure that leaves experts looking for a better channel.
 
 **Win the deal.** We win when:
 
@@ -52,24 +52,24 @@ Why us over doing nothing: the group that "figures it out when we get there" usu
 
 ## 3. The strategic bet
 
-**Data.** Roamly Groups is for the organizer of a friend group of 3 to 8 who has already picked or shortlisted an experience in one of our 40 cities and needs the group to commit. Not the browsing group; the decided group. The one thing worth choosing it for: the booking confirms for everyone at once and nobody is out of pocket. The biggest threat comes from two sides. Viator bolts per-person payment onto a hold it already runs. Or our experts reject the hold the way Airbnb's hosts did in 2018.
+**Data.** Roamly Groups is for the organizer of a friend group of 3 to 8 who has already picked or shortlisted an experience in one of our 40 cities and needs the group to commit. The decided group, not the browsing group. The one thing worth choosing it for: the booking confirms for everyone at once and nobody is out of pocket. The biggest threat comes from two sides. Viator bolts per-person payment onto a hold it already runs. Or our experts reject the hold the way Airbnb's hosts did in 2018.
 
-**Insight.** Viator wins on discovery and on "good enough": hold the seats free, collect on Venmo. So the checkout screen is not the differentiator. Viator can copy a screen. What it cannot copy quickly is a supply policy. Hundreds of thousands of self-onboarded operators would each have to agree to hold seats for unconfirmed groups, and the last marketplace that imposed that retreated within a year. The moat is a group hold that every expert in our cities has opted into. It has a short deadline and a clear answer to who bears the cost when it releases unpaid. The checkout is how customers see it.
+**Insight.** Viator wins on discovery and on "good enough": hold the seats free, collect on Venmo. Viator can copy a checkout screen, so the screen is not the differentiator. What it cannot copy quickly is a supply policy. Hundreds of thousands of self-onboarded operators would each have to agree to hold seats for unconfirmed groups, and the last marketplace that imposed that retreated within a year. The moat is a group hold that every expert in our cities has opted into, with a short deadline and a clear answer to who bears the cost when it releases unpaid. The checkout is how customers see that policy.
 
 **Belief.** Roamly Groups wins when the group has already chosen an experience and one person is about to become the bank. At that moment Viator can only charge one card and a payment pool cannot hold the seat. Only a marketplace whose experts have agreed to hold seats can confirm everyone at once.
 
 > We are betting that Roamly Groups wins by owning the commitment moment, not the discovery moment, because per-seat checkout on an expert-held slot is the one thing Viator cannot copy without renegotiating its supply, and a payment pool cannot do it at all.
 
-Same segment as Module 1, doubled down. What changed: the expert-side hold policy moves from an open question before launch to the first thing we build and sell.
+Same segment as Module 1. What changed: the expert-side hold policy moves from an open question before launch to the first thing we build and sell.
 
-- **Why now:** Viator's Reserve Now & Pay Later already covers most of its listings, so the hold half of our pitch is no longer unique. Per-person payment is one product decision away for them. Cash App Pools launched in July 2025 and is teaching organizers to collect before they book. Airbnb has just relaunched Experiences with group planning but still no group payment. The gap between "hold the seats" and "everyone pays their own seat" is open today and will not stay open.
+- **Why now:** Viator's Reserve Now & Pay Later already covers most of its listings, so the hold half of our pitch is no longer unique. Per-person payment is one product decision away for them. Cash App Pools launched in July 2025 and is teaching organizers to collect before they book. Airbnb has just relaunched Experiences with group planning but still no group payment. The gap between "hold the seats" and "everyone pays their own seat" is open today and will close.
 - **What we're deliberately NOT doing:** competing on discovery or breadth. No attempt to out-browse Viator. No inventory push. No group planning features (shared wishlists, voting, itinerary) in the launch. No launch in cities or with experts who will not opt into the hold policy, even if that shrinks launch supply below 40 cities. We enter after the group has chosen, or not at all.
 - **What would prove the bet right within 90 days:**
   1. **Expert opt-in of at least 60%** of vetted experts in each launch city. Derived from the shortlist: a group weighing three options needs at least one to be group-bookable. At 60% opt-in the chance a three-item shortlist contains one is 1 minus 0.4 cubed, about 94%. At 40% it drops to 78%.
   2. **Group completion rate above the current drop-off baseline** on same-slot sessions, with the Module 1 bar of at least 80% of the individual completion rate.
   3. **Held slots released unpaid below the cost the experts agreed to** in the opt-in. This is the number that killed Airbnb's version.
 
-  If experts will not opt in, the bet is wrong on the supply side and the mechanic does not ship, whatever the customer numbers say.
+  If experts will not opt in, the bet is wrong on the supply side and the mechanic does not ship, regardless of the customer numbers.
 
 ## 4. Evidence
 
