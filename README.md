@@ -22,7 +22,7 @@ Roamly and Roamly Groups are a fictional teaching scenario from the course. Noth
 | 2 | **Competitive Intelligence & Strategic Bet** (battlecard) | M2 | ☑ | `02-competitive-intel/battlecard-and-bet.md` |
 | 3 | **Positioning Statement** (framework + statement) | M3 | ☑ | `03-positioning/positioning.md` |
 | 4 | **Messaging & AI-Generated Asset** | M4 | ☑ | `04-messaging/messaging-and-asset.md` |
-| 5 | **Pricing Recommendation** | M5 | ☐ | `05-pricing/pricing-recommendation.md` |
+| 5 | **Pricing Recommendation** | M5 | ☑ | `05-pricing/pricing-recommendation.md` |
 | 6 | **Individual Insights** (launch + reflection) | M6 | ☐ | `06-launch/individual-insights.md` |
 | ★ | **Final GTM Presentation** (all six, as one HTML deck) | M6 | ☐ | `06-launch/final-presentation.md` → `final-presentation.html` |
 
@@ -63,7 +63,10 @@ product-school-go-to-market/
 │   ├── roamly-m4-messaging-builder.md     ← M4: Messaging Builder export
 │   └── roamly-m4-messaging-ex2.md         ← M4: Exercise 2, copy prompt, four asset versions, four blind reads
 ├── 05-pricing/
-│   └── pricing-recommendation.md          ← M5: pricing model + recommendation            ★ Deliverable 5
+│   ├── pricing-recommendation.md          ← M5: goal, model, host tiers, research, memo   ★ Deliverable 5
+│   ├── roamly-m5-pricing-memo.md          ← M5: one-page stakeholder memo
+│   ├── roamly-m5-pricing-ex1.md           ← M5: Exercise 1, the four pricing decisions
+│   └── roamly-m5-pricing-ex2.md           ← M5: Exercise 2, memo prompt, verbatim response, changes
 └── 06-launch/
     ├── individual-insights.md             ← M6: launch plan + insights                    ★ Deliverable 6
     ├── final-presentation.md              ← M6: prompt + how to build the deck            ★ Final submission
