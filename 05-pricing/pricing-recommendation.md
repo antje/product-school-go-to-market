@@ -7,13 +7,13 @@
 ## 1. Pricing goal
 
 - **Goal:** Maximize revenue from the audience Roamly already has, by adding seats to each booking, not by raising any price.
-- **Why this is the right commercial goal now:** The Module 2 bet is to own the commitment moment for friend groups whose organizer is already a Roamly user. That is a known audience, not a new market. Competing on price is not an option: Viator charges travelers no fee on 300,000 listings. The revenue already sits in the group sessions that start and die today. A completed group of five at $60 a seat is $300 of bookings and $60 to Roamly at a 20% commission, where today that session earns nothing.
+- **Why this is the right commercial goal now:** Group booking is a market Roamly has never served, but the way in is an audience it already has. The Module 2 bet is to own the commitment moment for friend groups whose organizer is already a Roamly user, so the first revenue comes from people who already trust Roamly, and the friends they invite are the new customers. Competing on price is not an option: Viator charges travelers no fee on 300,000 listings. The revenue already sits in the group sessions that start and die today. A completed group of five at $60 a seat is $300 of bookings and $60 to Roamly at a 20% commission, where today that session earns nothing.
 
 It is also too early to price the traveler side. Group completion is the unproven step, and it is the leading indicator set in Module 1. Pricing people who have not yet reached the value is the wrong lever, so travelers get no price at all.
 
 ## 2. Pricing model
 
-- **Model:** Transaction-based, on the commission Roamly already takes, charged to the host.
+- **Model:** Transaction-based, on the commission Roamly already takes, charged to the host. In pricing terms this is value-based pricing with price discrimination between the two sides: Roamly charges the party whose willingness to pay rises with the outcome (the host, whose alternative is an empty seat) and nothing to the party whose demand is most elastic (the friend).
 - **Who pays, and for what?** The host pays. The traveler pays the listed price with no booking fee.
 
 Value is event-driven: it exists only when a whole group pays, and it arrives in full at that moment. A commission on completed group bookings charges at exactly that point.
@@ -24,7 +24,7 @@ Rejected alternatives:
 
 - **An organizer subscription.** Organizers book a group two or three times a year, so a subscription would charge for access to a checkout flow.
 - **Seat-based pricing.** It would tax the extra seats the product exists to add.
-- **A per-seat group fee for travelers.** The friend has no pain today and is the most price-sensitive person in the booking, and a fee lands on every friend. If a fee cut per-friend completion from 95% to 90%, a group of seven would complete 48% of the time instead of 70% (0.90^7 against 0.95^7). Viator and a payment pool both cost the traveler nothing.
+- **A per-seat group fee for travelers.** The friend has no pain today, so their willingness to pay for group checkout is close to zero and their demand is the most elastic in the booking, and a fee lands on every friend. If a fee cut per-friend completion from 95% to 90%, a group of seven would complete 48% of the time instead of 70% (0.90^7 against 0.95^7). Viator and a payment pool both cost the traveler nothing.
 
 Roamly carries the one new cost itself. Splitting one payment into five adds four card transactions, about $1.20 in fixed fees on a group of five, or 2% of the $60 commission.
 
@@ -33,13 +33,15 @@ Roamly carries the one new cost itself. Splitting one payment into five adds fou
 - **Structure:** By features, for hosts only.
 - **Audiences & fit:** One structure serves both Module 4 audiences, the organizer and the friend: no tier, no fee, nothing to choose at checkout. Any choice at that moment is friction for the organizer and a reason to leave for the friend. The tiers are for hosts, the party Module 4 reached with a sales line, and what they buy is group demand. Split payment and the hold are in every tier, because every group booking uses them. The hold policy is the same in every tier, so the promise on every surface ("if it doesn't fill by the deadline, nobody is charged") never depends on which host a group booked.
 
+The tiers follow Good-Better-Best, with the middle tier as the one to route hosts toward.
+
 | Tier | Who it's for | Price | What's included |
 |---|---|---|---|
 | Group-ready | Every vetted host. The launch tier: each city needs 60% of its hosts to opt in. | Standard commission, no uplift (assumed 20%) | Accepts the standard group hold; becomes group-bookable |
 | Group Plus ★ | Hosts with unsold mid-week capacity, once they have seen group bookings | 24% on group bookings only (+4 points) | Priority placement in the "booking for a group?" entry point and group search, a group-friendly badge, a group price the host sets for parties of six or more |
 | Private Groups | Hosts who can run a whole session for one group | 26% on group bookings only (+6 points) | Everything in Plus, a private-session listing with a minimum group size, a monthly group demand report |
 
-Group Plus is the tier to route hosts toward. On a group of five at $60, the four points cost the host $12. One extra seat is worth $45.60 to the host after commission. So Plus pays for itself if it fills one extra seat every 3.8 groups. At 24%, it also stays well under the 30 to 35% that operators report paying Viator under its Accelerate visibility program, which keeps the supply-side advantage from Module 2.
+Group Plus is the tier to route hosts toward. On a group of five at $60, the four points cost the host $12. One extra seat is worth $45.60 to the host after commission. So Plus pays for itself if it fills one extra seat every 3.8 groups. At 24%, it also stays well under the 30 to 35% that operators report paying Viator under its Accelerate visibility program, which keeps the supply-side advantage from Module 2. The four points are a hypothesis, not a settled price: chosen because break-even then needs no more than one extra seat in four groups and the rate stays at least five points under Viator's Accelerate floor. The Van Westendorp study sets the final number. Private Groups at +6 follows the same logic: a private session fills the whole slot, so the host has no stray seats, and 26% is still four points under that floor. It is also a hypothesis, for the same studies to test.
 
 The graduation path is visible: a Group-ready host sees what their filled groups would have earned on Plus.
 

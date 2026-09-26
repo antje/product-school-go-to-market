@@ -45,13 +45,15 @@ The four class steps (Align on the Goal, Do the Research, Build a Team, Form a H
 
 All five motion inputs land on PLG. Time to value is minutes: the organizer creates the group, shares a link, and friends pick and pay. Buyer and user are the same person. Contract value is low, one booking of tens to a few hundred dollars per seat, with no procurement. The cycle is self-serve; nobody at Roamly should touch a group booking. It scales through product virality, because every group booking sends invites to people who are not on Roamly yet.
 
+**Investment tier: Tier 2, a focused GTM plan, not Tier 1.** Reach is moderate: group sessions are a slice of Roamly's bookings, and the launch covers only cities where hosts opt in. Impact is high: each completed group adds several seats. Risk if we say nothing is real but slow: organizers keep hacking the workaround and some sessions keep dying. That profile earns a focused plan, not a full launch across every channel.
+
 Community is a channel here, not a motion. Roamly already grows through travel communities, review sites and social media, and group travel is peer-influenced, so the launch seeds the feature where organizers already talk to each other instead of buying reach. Sales-led is out: company teams would need invoicing, a buyer who is not the user and a human-led cycle, which is a different product and a later phase.
 
 **Primary goal:** Expand. Grow within the existing base by recovering the group bookings that today start and die, so each booking carries several seats. New-user signups from invites are measured as a by-product, not set as the launch goal.
 
 - **Acquisition:** Organizers come from inside the base through the checkout entry point and the split-pay ticket cohort. Friends come through the invite link.
 - **Activation:** The group is activated when every friend has paid and the booking confirms for all of them at once. The invite screen decides activation, so it gets the design and testing budget: guest pay in one screen, account creation offered after payment.
-- **Monetization:** Same take rate on every seat, now several seats per booking. No group discount at launch. The slot hold is the one new cost, and its window and cost owner are decided before launch.
+- **Monetization:** Same take rate on every seat, now several seats per booking. No group discount at launch. *Refined in Module 5:* the host pays through the commission; the standard rate stays unchanged for every host, and hosts can opt into Group Plus (+4 points on group bookings) or Private Groups (+6), which include setting their own price for parties of six or more. Travelers still see no fee and no discount from Roamly; see `05-pricing/pricing-recommendation.md`. The slot hold is the one new cost, and its window and cost owner are decided before launch.
 
 ## 4. V1 one-pager
 
@@ -78,6 +80,8 @@ Community is a channel here, not a motion. Roamly already grows through travel c
 
 **Open before launch:** the hold window length and who bears the cost when a held slot releases unpaid; what the one-screen friend flow looks like and the completion rate it has to beat; the current drop-off rate and the organizer count in the launch cities, so the target and the ceiling are written down rather than asserted.
 
+*Refined in Module 6:* the hold window is set as a pilot hypothesis, 48 hours from the first invite and closing no later than 72 hours before the experience; see `06-launch/individual-insights.md`.
+
 *Refined in Module 2:* competitive research showed Airbnb shipped this hold in 2017 and retired it in 2018 because hosts never opted in. The hold policy with expert opt-in moved from an open question to the strategic bet itself; see `02-competitive-intel/battlecard-and-bet.md`.
 
 ## 5. Success metrics
@@ -93,7 +97,7 @@ Community is a channel here, not a motion. Roamly already grows through travel c
 
 That the friends will complete. The organizer has the pain and gets the value. The friends are the majority of the transaction, have no pain today, and each one has to say yes, open a link and pay before the booking exists. If per-friend completion is 80%, a group of seven completes about 21% of the time (0.8 to the power of 7). If it is 95%, the same group completes about 70% of the time. The strategy depends on which of those two numbers is closer to the truth.
 
-How to test it: put the one-screen guest-pay flow in front of 20 organizers in one launch city before the wider release, and measure per-friend completion and time to the last payment. If per-friend completion is below 90%, the friend flow is redesigned before the launch widens, and the hold window is lengthened so slots do not release while a group is still paying.
+How to test it: put the one-screen guest-pay flow in front of 20 organizers in one launch city before the wider release, and measure per-friend completion and time to the last payment. Twenty organizers with groups of about five means roughly 80 friend payments, which measures per-friend completion to within about 7 points at 90%: enough to tell 80% from 95%, which is the gap that decides the strategy. If per-friend completion is below 90%, the friend flow is redesigned before the launch widens. The 90% bar is where a typical group of five, the organizer plus four friends, still completes about two times in three (0.9 to the power of 4 is 66%). A miss triggers a look before a redesign: if friends drop at the payment step, the flow is the problem; if they never open the link, the experience or the price is.
 
 ## Link to full artifact
 
